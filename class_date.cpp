@@ -12,7 +12,10 @@ int main()
     cout << boolalpha << (second != first) << endl;
     cout << boolalpha << (second > first) << endl;
     cout << boolalpha << (second < first) << endl;
-    first += 200;
+    first += 500;
     first.print();
+    first -= 500;
+    first.print();
+
 }
 

@@ -104,7 +104,7 @@ void mDate::operator-=(int days)
         }
         else {
             days -= this->day;
-            this->month++;
+            this->month--;
             if (this->month < 1) {
                 this->month = 12;
                 this->year--;
